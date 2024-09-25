@@ -1,12 +1,14 @@
 /**
  * Challenge:
- * Complete the React component below to fetch repositories from GitHub's API for a given username
- * and display them in a list sorted by the number of stars in descending order. Finally, refactor the username to be dynamic and fetched from a form input. You may do this as a first step if you prefer.
+ * Complete the Angular component below to fetch repositories from GitHub's API for a given username.
  *
  * Requirements:
  * - Fetch repositories from GitHub's API for a given username.
  * - Display the repository name and star count.
  * - Sort the repositories by star count in descending order.
+ * - Cicking a repo's row should expand with the url to the repo.
+ *   - Clicking the repo url should open in a new tab
+ *   - Clicking the repo url should close any other open row
  * - Handle loading and error states appropriately.
  *
  * Instructions:
